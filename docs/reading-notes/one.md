@@ -1,9 +1,7 @@
 ---
-title: 文档介绍
+title: 正面管教
 author: 部文旭
 date: '2023-07-21'
 ---
 
-## 学习
-
-<LastUpdated />
+> // TODO

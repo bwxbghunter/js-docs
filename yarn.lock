@@ -1080,6 +1080,27 @@
     event-target-shim "^5.0.1"
     miniprogram-api-typings "^2.10.2"
 
+"@moefy-canvas/core@^0.5.2":
+  version "0.5.2"
+  resolved "http://nexus.staff.xdf.cn/repository/npm-group/@moefy-canvas/core/-/core-0.5.2.tgz#fd3994025942e911a6dc94b85e564818ef202f7b"
+  integrity sha512-XkaVE91Tiwb35zFmI1DbrJpMh0xe54QbzQrc7ATwMos4C08dxBnwExwXEVS7oEct7owVDY1UWxtRRVE7smtzHw==
+
+"@moefy-canvas/theme-popper@^0.5.2":
+  version "0.5.2"
+  resolved "http://nexus.staff.xdf.cn/repository/npm-group/@moefy-canvas/theme-popper/-/theme-popper-0.5.2.tgz#717a29c6964362facf842affe47c0f016f0188d6"
+  integrity sha512-s6Gy27DKTLm2un5Od3fsAonnd7lN4pgyLXJ/omXisAZpVLbPg/Q5/QKpJLZvQ/08qNrn6X/GZjnWwvsHbJTBNw==
+  dependencies:
+    "@moefy-canvas/core" "^0.5.2"
+    "@moefy-canvas/utils" "^0.5.2"
+    ts-debounce "^4.0.0"
+
+"@moefy-canvas/utils@^0.5.2":
+  version "0.5.2"
+  resolved "http://nexus.staff.xdf.cn/repository/npm-group/@moefy-canvas/utils/-/utils-0.5.2.tgz#11c9ac56e9a81456678ccd10b2234754e2a20cfe"
+  integrity sha512-DnI8I/cTBFfn3xoXwyyLEtye4pMI6zJFMxU1qps731xgYTWmzBqJPkZZd/2gfNnH5NnLUOGG7Ui3sMkmJ0vg0w==
+  dependencies:
+    "@moefy-canvas/core" "^0.5.2"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "http://nexus.staff.xdf.cn/repository/npm-group/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -6341,6 +6362,11 @@ mkdirp@~1.0.4:
   resolved "http://nexus.staff.xdf.cn/repository/npm-group/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
+moment@^2.29.4:
+  version "2.29.4"
+  resolved "http://nexus.staff.xdf.cn/repository/npm-group/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "http://nexus.staff.xdf.cn/repository/npm-group/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -8699,6 +8725,11 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
+ts-debounce@^4.0.0:
+  version "4.0.0"
+  resolved "http://nexus.staff.xdf.cn/repository/npm-group/ts-debounce/-/ts-debounce-4.0.0.tgz#33440ef64fab53793c3d546a8ca6ae539ec15841"
+  integrity sha512-+1iDGY6NmOGidq7i7xZGA4cm8DAa6fqdYcvO5Z6yBevH++Bdo9Qt/mN0TzHUgcCcKv1gmh9+W5dHqz8pMWbCbg==
+
 tty-browserify@0.0.0:
   version "0.0.0"
   resolved "http://nexus.staff.xdf.cn/repository/npm-group/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
@@ -9217,6 +9248,13 @@ vuepress-plugin-container@^2.0.2:
   dependencies:
     "@vuepress/shared-utils" "^1.2.0"
     markdown-it-container "^2.0.0"
+
+vuepress-plugin-cursor-effects@^1.1.6:
+  version "1.1.6"
+  resolved "http://nexus.staff.xdf.cn/repository/npm-group/vuepress-plugin-cursor-effects/-/vuepress-plugin-cursor-effects-1.1.6.tgz#b71efc76e48a7f0f7492e60fc52047c3386569e9"
+  integrity sha512-4qXL2flMQcd6ecp+LhdChspobhdb9fkAfmRjRs2K3a/DiwtQtOE24jaVFCClwhfDpYuRe48a0KVeROYkdiWuXg==
+  dependencies:
+    "@moefy-canvas/theme-popper" "^0.5.2"
 
 vuepress-plugin-disqus@^0.2.0:
   version "0.2.0"
