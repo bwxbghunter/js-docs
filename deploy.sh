@@ -15,7 +15,7 @@ git commit -m 'deploy'
 
 # 如果你想要部署到 https://<USERNAME>.github.io
 # git push -f git@github.com:bwxbghunter/bwxbghunter.github.io.git master
-git pull --rebase origin master
+# git pull --rebase origin master
 
 git push --set-upstream https://github.com/bwxbghunter/js-docs master
 # https://github.com/bwxbghunter/js-docs
