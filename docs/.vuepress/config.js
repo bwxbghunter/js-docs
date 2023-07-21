@@ -3,7 +3,7 @@ module.exports = {
     title: 'FE学习积累记录文档',
     description: 'FE学习积累记录文档',
     serviceWorker: true, // 是否开启 PWA
-    base: '/', // 部署到github相关的配置
+    base: '/js-docs/', // 部署到github相关的配置
     markdown: {
         lineNumbers: true // 代码块是否显示行号
     },
