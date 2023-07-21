@@ -1,0 +1,20 @@
+{
+    "name": "js-docs",
+    "version": "1.0.0",
+    "description": "js技术沉淀文档",
+    "main": "index.js",
+    "keywords": [],
+    "author": "buwenxu",
+    "license": "ISC",
+    "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+    },
+    "devDependencies": {
+        "moment": "^2.29.4",
+        "vuepress": "^1.9.9"
+    },
+    "dependencies": {
+        "vuepress-theme-reco": "^1.6.17"
+    }
+}
