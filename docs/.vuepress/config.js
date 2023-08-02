@@ -50,7 +50,8 @@ module.exports = {
                 collapsable: true, // 折叠
                 children: [
                     { title: "介绍", path: "/reading-notes/" },
-                    { title: "正面管教", path: "/reading-notes/one" },
+                    { title: "正面管教", path: "/reading-notes/zheng-mian-guan-jiao" },
+                    { title: "故事课", path: "/reading-notes/gu-shi-ke" },
                 ],
             }
         ],
