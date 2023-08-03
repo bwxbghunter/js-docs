@@ -29,10 +29,10 @@ module.exports = {
             },
             {
                 title: '前端积累',
-                path: '/accumulate/one',
+                path: '/accumulate/1',
                 collapsable: true, // 折叠
                 children: [
-                    { title: "文件大小单位转换", path: "/accumulate/one" },
+                    { title: "文件大小单位转换", path: "/accumulate/1" },
                 ],
             },
             {
@@ -41,7 +41,7 @@ module.exports = {
                 collapsable: true, // 折叠
                 children: [
                     { title: "介绍", path: "/writing-practice/" },
-                    { title: "练习一", path: "/writing-practice/one" },
+                    { title: "练习一", path: "/writing-practice/practice-1" },
                 ],
             },
             {
